@@ -13,6 +13,11 @@
 		24EB845F1DCCE20200BFE512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB845D1DCCE20200BFE512 /* LaunchScreen.storyboard */; };
 		24EB846A1DCCE20200BFE512 /* DouYuLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB84691DCCE20200BFE512 /* DouYuLiveTests.swift */; };
 		24EB84751DCCE20200BFE512 /* DouYuLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB84741DCCE20200BFE512 /* DouYuLiveUITests.swift */; };
+		24EB84911DCCF74800BFE512 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB848F1DCCF74800BFE512 /* Home.storyboard */; };
+		24EB84931DCCF76D00BFE512 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB84921DCCF76D00BFE512 /* Live.storyboard */; };
+		24EB84961DCCF78D00BFE512 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB84941DCCF78D00BFE512 /* Follow.storyboard */; };
+		24EB84981DCCF7AE00BFE512 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB84971DCCF7AE00BFE512 /* Profile.storyboard */; };
+		24EB849A1DCCF8CF00BFE512 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB84991DCCF8CF00BFE512 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		24EB84701DCCE20200BFE512 /* DouYuLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EB84741DCCE20200BFE512 /* DouYuLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuLiveUITests.swift; sourceTree = "<group>"; };
 		24EB84761DCCE20200BFE512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EB84901DCCF74800BFE512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuLive/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		24EB84921DCCF76D00BFE512 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
+		24EB84951DCCF78D00BFE512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuLive/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		24EB84971DCCF7AE00BFE512 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../Main/Profile.storyboard; sourceTree = "<group>"; };
+		24EB84991DCCF8CF00BFE512 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,6 @@
 			children = (
 				24EB84881DCCEAD100BFE512 /* Classes */,
 				24EB84541DCCE20200BFE512 /* AppDelegate.swift */,
-				24EB84581DCCE20200BFE512 /* Main.storyboard */,
 				24EB845B1DCCE20200BFE512 /* Assets.xcassets */,
 				24EB845D1DCCE20200BFE512 /* LaunchScreen.storyboard */,
 				24EB84601DCCE20200BFE512 /* Info.plist */,
@@ -139,6 +148,7 @@
 		24EB84891DCCEAD100BFE512 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				24EB84941DCCF78D00BFE512 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -146,6 +156,7 @@
 		24EB848A1DCCEAD100BFE512 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				24EB848F1DCCF74800BFE512 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 		24EB848B1DCCEAD100BFE512 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				24EB84921DCCF76D00BFE512 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +172,8 @@
 		24EB848C1DCCEAD100BFE512 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				24EB84581DCCE20200BFE512 /* Main.storyboard */,
+				24EB84991DCCF8CF00BFE512 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +181,7 @@
 		24EB848D1DCCEAD100BFE512 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				24EB84971DCCF7AE00BFE512 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -288,6 +303,10 @@
 				24EB845F1DCCE20200BFE512 /* LaunchScreen.storyboard in Resources */,
 				24EB845C1DCCE20200BFE512 /* Assets.xcassets in Resources */,
 				24EB845A1DCCE20200BFE512 /* Main.storyboard in Resources */,
+				24EB84931DCCF76D00BFE512 /* Live.storyboard in Resources */,
+				24EB84911DCCF74800BFE512 /* Home.storyboard in Resources */,
+				24EB84981DCCF7AE00BFE512 /* Profile.storyboard in Resources */,
+				24EB84961DCCF78D00BFE512 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EB84551DCCE20200BFE512 /* AppDelegate.swift in Sources */,
+				24EB849A1DCCF8CF00BFE512 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +374,7 @@
 				24EB84591DCCE20200BFE512 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		24EB845D1DCCE20200BFE512 /* LaunchScreen.storyboard */ = {
@@ -362,6 +383,24 @@
 				24EB845E1DCCE20200BFE512 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24EB848F1DCCF74800BFE512 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EB84901DCCF74800BFE512 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		24EB84941DCCF78D00BFE512 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EB84951DCCF78D00BFE512 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -466,11 +505,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouYuLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lile.DouYuLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -481,11 +520,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouYuLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lile.DouYuLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

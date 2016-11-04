@@ -4,7 +4,8 @@
 //
 //  Created by LiLe on 2016/11/4.
 //  Copyright © 2016年 LiLe. All rights reserved.
-//
+//  
+//  本项目基于Swift2.3
 
 import UIKit
 
@@ -15,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UITabBar.appearance().tintColor = UIColor.orangeColor()
+        
         return true
     }
 
