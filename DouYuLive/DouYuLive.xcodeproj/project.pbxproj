@@ -23,6 +23,11 @@
 		242740B11DDABA6900BCC1E1 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242740AF1DDABA6900BCC1E1 /* CollectionNormalCell.xib */; };
 		242740B41DDABFA000BCC1E1 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242740B21DDABFA000BCC1E1 /* CollectionPrettyCell.swift */; };
 		242740B51DDABFA000BCC1E1 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242740B31DDABFA000BCC1E1 /* CollectionPrettyCell.xib */; };
+		243522041DDB2D0F00DE5210 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243522031DDB2D0F00DE5210 /* RecommendViewModel.swift */; };
+		243522061DDB30EB00DE5210 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243522051DDB30EB00DE5210 /* AnchorGroup.swift */; };
+		243522081DDB347900DE5210 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243522071DDB347900DE5210 /* AnchorModel.swift */; };
+		24E308D21DDB129D000EFDE7 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E308D11DDB129D000EFDE7 /* NetworkTools.swift */; };
+		24E308D41DDB15F3000EFDE7 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E308D31DDB15F3000EFDE7 /* NSDate-Extension.swift */; };
 		24EB84551DCCE20200BFE512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB84541DCCE20200BFE512 /* AppDelegate.swift */; };
 		24EB845A1DCCE20200BFE512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB84581DCCE20200BFE512 /* Main.storyboard */; };
 		24EB845C1DCCE20200BFE512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EB845B1DCCE20200BFE512 /* Assets.xcassets */; };
@@ -67,6 +72,11 @@
 		242740AF1DDABA6900BCC1E1 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
 		242740B21DDABFA000BCC1E1 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
 		242740B31DDABFA000BCC1E1 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		243522031DDB2D0F00DE5210 /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		243522051DDB30EB00DE5210 /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		243522071DDB347900DE5210 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		24E308D11DDB129D000EFDE7 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		24E308D31DDB15F3000EFDE7 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		24EB84511DCCE20200BFE512 /* DouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EB84541DCCE20200BFE512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24EB84591DCCE20200BFE512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,13 +128,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		2405C4931DD44D8F00B8F9CD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		2405C4941DD44D8F00B8F9CD /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,8 +171,26 @@
 			children = (
 				2405C4A31DD4570600B8F9CD /* UIBarButtonItem-Extension.swift */,
 				2405C4AB1DD4738000B8F9CD /* UIColor-Extension.swift */,
+				24E308D31DDB15F3000EFDE7 /* NSDate-Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		243522011DDB2CCC00DE5210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				243522051DDB30EB00DE5210 /* AnchorGroup.swift */,
+				243522071DDB347900DE5210 /* AnchorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243522021DDB2CDD00DE5210 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				243522031DDB2D0F00DE5210 /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		24EB84481DCCE20200BFE512 = {
@@ -246,7 +267,8 @@
 		24EB848A1DCCEAD100BFE512 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				2405C4931DD44D8F00B8F9CD /* Model */,
+				243522021DDB2CDD00DE5210 /* ViewModel */,
+				243522011DDB2CCC00DE5210 /* Model */,
 				2405C4941DD44D8F00B8F9CD /* View */,
 				2405C4921DD44D8F00B8F9CD /* Controller */,
 			);
@@ -284,6 +306,7 @@
 			children = (
 				2405C4A01DD4569300B8F9CD /* Extension */,
 				2405C4A71DD463E200B8F9CD /* Common.swift */,
+				24E308D11DDB129D000EFDE7 /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -433,14 +456,19 @@
 				242740AC1DDAB3D400BCC1E1 /* CollectionHeaderView.swift in Sources */,
 				2405C4AC1DD4738000B8F9CD /* UIColor-Extension.swift in Sources */,
 				242740A91DDAA80700BCC1E1 /* RecommendViewController.swift in Sources */,
+				243522061DDB30EB00DE5210 /* AnchorGroup.swift in Sources */,
 				24EB84551DCCE20200BFE512 /* AppDelegate.swift in Sources */,
 				2405C4A61DD461E800B8F9CD /* PageTitleView.swift in Sources */,
 				2405C4AA1DD4711B00B8F9CD /* PageContentView.swift in Sources */,
 				2405C4A41DD4570600B8F9CD /* UIBarButtonItem-Extension.swift in Sources */,
 				2405C4A81DD463E200B8F9CD /* Common.swift in Sources */,
 				242740B41DDABFA000BCC1E1 /* CollectionPrettyCell.swift in Sources */,
+				24E308D41DDB15F3000EFDE7 /* NSDate-Extension.swift in Sources */,
 				242740B01DDABA6900BCC1E1 /* CollectionNormalCell.swift in Sources */,
+				24E308D21DDB129D000EFDE7 /* NetworkTools.swift in Sources */,
+				243522041DDB2D0F00DE5210 /* RecommendViewModel.swift in Sources */,
 				2405C49B1DD44E9900B8F9CD /* HomeViewController.swift in Sources */,
+				243522081DDB347900DE5210 /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
